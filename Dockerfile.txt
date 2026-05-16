@@ -13,4 +13,3 @@ FROM base AS final
 WORKDIR /app
 COPY --from=build /app/out .
 ENTRYPOINT ["dotnet", "FeoLibraryNowAPI.dll"]
-Microsoft Artifact Registry
